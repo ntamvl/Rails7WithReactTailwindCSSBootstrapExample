@@ -1,0 +1,10 @@
+.my_styles_4 {
+  font-family: 600;
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    color: green;
+  }
+}

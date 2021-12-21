@@ -1,6 +1,7 @@
 // esbuild.config.js
 
 const path = require('path')
+const sassPlugin = require('esbuild-plugin-sass')
 const { styleLoaderPlugin } = require("./esbuild.style.loader.plugin");
 
 require("esbuild").build({
@@ -20,6 +21,7 @@ require("esbuild").build({
     '.png': 'file'
   },
   plugins: [
-    styleLoaderPlugin
+    styleLoaderPlugin,
+    sassPlugin()
   ],
 }).catch(() => process.exit(1))
