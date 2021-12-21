@@ -136,14 +136,16 @@ rm tailwind.config.js
 npx tailwindcss init --full
 ```
 
-**Update Tailwind config**
+**Update Tailwind config `tailwind.config.js`**
 ```js
+// ...
 content: [
     './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js'
 ],
 prefix: 'tw-',
+// ...
 ```
 
 **Create custom styles `app/assets/stylesheets/styles.css`**
