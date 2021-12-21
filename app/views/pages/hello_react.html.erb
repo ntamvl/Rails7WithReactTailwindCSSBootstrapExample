@@ -1,2 +1,16 @@
-<h1>Pages#hello_react</h1>
-<p>Find me in app/views/pages/hello_react.html.erb</p>
+<%= render 'pages/nav_bootstrap' %>
+<%= render 'pages/popover_bs' %>
+
+<div class="container mt-4 tw-rounded-xl tw-bg-gray-700">
+  <h2 class="tw-text-3xl tw-text-white tw-py-4">React Components</h2>
+</div>
+<div id="react-components" class="tw-py-2"></div>
+<%= javascript_include_tag "react/hello_react" %>
+
+<div class="container tw-mt-8">
+  <h2>Tailwind Components</h2>
+  <%= render 'pages/content_tailwind_1' %>
+  <%= render 'pages/content_tailwind_2' %>
+  <%= render 'pages/content_tailwind_3' %>
+  <div class="tw-py-8"></div>
+</div>
