@@ -774,7 +774,8 @@ app/javascript/styles/index.css
 Then go to http://localhost:3000/
 
 Screenshots:
-
+![Rails 7 with React, TailwindCSS and Bootstrap 5 Example](https://raw.githubusercontent.com/ntamvl/Rails7WithReactTailwindCSSBootstrapExample/main/screenshot_1.png)
+![Rails 7 with React, TailwindCSS and Bootstrap 5 Example](https://raw.githubusercontent.com/ntamvl/Rails7WithReactTailwindCSSBootstrapExample/main/screenshot_2.png)
 
 Enjoy ^_^ :))
 
