@@ -1,10 +1,11 @@
 .my_styles_4 {
   font-family: 600;
   font-size: 2rem;
-  color: red;
+  color: #f73378;
   text-align: center;
   cursor: pointer;
+  text-transform: uppercase;
   &:hover {
-    color: green;
+    color: #f50057;
   }
 }
