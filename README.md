@@ -773,6 +773,16 @@ app/javascript/styles/index.css
 
 Then go to http://localhost:3000/
 
+OR clone source and run to see the result:
+```bash
+cd
+git clone https://github.com/ntamvl/Rails7WithReactTailwindCSSBootstrapExample.git
+cd Rails7WithReactTailwindCSSBootstrapExample
+bundle install
+yarn install
+./bin/dev
+```
+
 Screenshots:
 ![Rails 7 with React, TailwindCSS and Bootstrap 5 Example](https://raw.githubusercontent.com/ntamvl/Rails7WithReactTailwindCSSBootstrapExample/main/screenshot_1.png)
 ![Rails 7 with React, TailwindCSS and Bootstrap 5 Example](https://raw.githubusercontent.com/ntamvl/Rails7WithReactTailwindCSSBootstrapExample/main/screenshot_2.png)
