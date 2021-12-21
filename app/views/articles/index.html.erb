@@ -1,0 +1,15 @@
+<div class="container tw-py-8">
+  <p style="color: green"><%= notice %></p>
+  <h1 class="tw-text-3xl">Articles</h1>
+  <div id="articles">
+    <% @articles.each do |article| %>
+      <%= render article %>
+      <div class="tw-my-4 tw-flex tw-flex-row tw-justify-start">
+        <%= link_to "Show this article", article, class: 'btn btn-sm btn-secondary tw-bg-fuchsia-500' %>
+      </div>
+    <% end %>
+  </div>
+  <div class="tw-my-4">
+    <%= link_to "New article", new_article_path, class: 'btn btn-primary tw-bg-blue-500' %>
+  </div>
+</div>

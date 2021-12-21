@@ -1,0 +1,9 @@
+<div class="container tw-py-8">
+  <p style="color: green"><%= notice %></p>
+  <%= render @article %>
+  <div class="tw-flex tw-flex-row">
+    <%= link_to "Edit this article", edit_article_path(@article), class: 'btn btn-sm btn-info me-2' %>
+    <%= link_to "Back to articles", articles_path, class: 'btn btn-sm btn-secondary me-2' %>
+    <%= button_to "Destroy this article", @article, method: :delete, class: 'btn btn-sm btn-danger tw-bg-red-600 hover:tw-bg-red-900 me-2' %>
+  </div>
+</div>

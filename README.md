@@ -750,12 +750,31 @@ Update file `app/views/pages/hello_react.html.erb`
 
 ```
 
+app/javascript/styles/index.css
+```css
+.my-styles-2 {
+  font-weight: 600;
+  color: red;
+}
+```
+
+## Create Article
+```bash
+./bin/rails g scaffold Article title:string body:text
+./bin/rails db:create db:migrate
+```
+
+*Use Tailwind and Bootstrap to update styles for article pages*
+
 ## Run app
 ```bash
 ./bin/dev
 ```
 
 Then go to http://localhost:3000/
+
+Screenshots:
+
 
 Enjoy ^_^ :))
 
