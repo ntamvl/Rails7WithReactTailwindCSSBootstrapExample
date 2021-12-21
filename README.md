@@ -92,14 +92,10 @@ module.exports = {
 
 **Create file `esbuild.config.js`**
 ```js
-const path = require('path')
-const rails = require('esbuild-rails')
-const svgrPlugin = require('esbuild-plugin-svgr')
-const { styleLoaderPlugin } = require("./esbuild.style.loader.plugin");
+// esbuild.config.js
 
-const svgrOptions = {
-  typescript: false
-}
+const path = require('path')
+const { styleLoaderPlugin } = require("./esbuild.style.loader.plugin");
 
 require("esbuild").build({
   entryPoints: [
@@ -115,12 +111,10 @@ require("esbuild").build({
   publicPath: '/assets',
   loader: {
     '.js': 'jsx',
-    '.png': 'file',
+    '.png': 'file'
   },
   plugins: [
-    rails(),
-    svgrPlugin(svgrOptions),
-    styleLoaderPlugin,
+    styleLoaderPlugin
   ],
 }).catch(() => process.exit(1))
 
