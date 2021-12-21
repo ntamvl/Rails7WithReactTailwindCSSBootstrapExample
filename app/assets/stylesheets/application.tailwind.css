@@ -1,3 +1,14 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+/* this line is used for the case if prioritizes Bootstrap first */
+@import "bootstrap/dist/css/bootstrap.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* this line is used for the case if prioritizes Bootstrap later */
+/* @import "bootstrap/dist/css/bootstrap.css"; */
+@import "./styles";
