@@ -208,7 +208,7 @@ touch app/javascript/libs/index.js
 // app/javascript/libs/bootstrap.js
 
 // import "bootstrap/dist/css/bootstrap.css"
-import "bootstrap/dist/js/bootstrap.bundle.js"
+// import "bootstrap/dist/js/bootstrap.bundle.js"
 
 const bootstrap = require("bootstrap/dist/js/bootstrap.bundle.js")
 const popoverElements = document.querySelector('[data-bs-toggle="popover"]')
