@@ -1,6 +1,7 @@
 # Rails 7 with React, TailwindCSS and Bootstrap 5 Example
 
 Rails 7 with React, TailwindCSS and Bootstrap 5 Example
+- Ruby 3.0.3
 - Rails 7.0.0
 - SQLite
 - Node v14.15.0
