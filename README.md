@@ -163,10 +163,6 @@ prefix: 'tw-',
 
 **Update file `application.tailwind.css`**
 ```css
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 /* this line is used for the case if prioritizes Bootstrap first */
 @import "bootstrap/dist/css/bootstrap.css";
 
