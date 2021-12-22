@@ -152,11 +152,7 @@ prefix: 'tw-',
 **Create custom styles `app/assets/stylesheets/styles.css`**
 ```css
 /* app/assets/stylesheets/styles.css */
-
 /* Custom Styles */
-
-/* this line is used for the case if prioritizes Bootstrap later */
-/* @import "bootstrap/dist/css/bootstrap.css"; */
 
 .my-styles {
   font-weight: 600;
