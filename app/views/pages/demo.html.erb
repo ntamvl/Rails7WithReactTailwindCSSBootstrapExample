@@ -1,0 +1,35 @@
+<!-- use my simple tool to generate tw prefix: http://tailwind-prefix-generator.ntam.me/ -->
+<div class="tw-flex tw-justify-center tw-items-center py-4">
+  <div class="tw-relative tw-inline-block tw-text-left">
+    <div>
+      <button type="button" class="tw-inline-flex tw-justify-center tw-w-full tw-rounded-md tw-border tw-border-gray-300 tw-shadow-sm tw-px-4 tw-py-2 tw-bg-white tw-text-sm tw-font-medium tw-text-gray-700 hover:tw-bg-gray-50 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-offset-2 focus:tw-ring-offset-gray-100 focus:tw-ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
+        Options
+        <!-- Heroicon name: solid/chevron-down -->
+        <svg class="tw--mr-1 tw-ml-2 tw-h-5 tw-w-5" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+    <!--
+    Dropdown menu, show/hide based on menu state.
+
+    Entering: "transition ease-out duration-100"
+      From: "transform opacity-0 scale-95"
+      To: "transform opacity-100 scale-100"
+    Leaving: "transition ease-in duration-75"
+      From: "transform opacity-100 scale-100"
+      To: "transform opacity-0 scale-95"
+  -->
+    <div class="tw-origin-top-right tw-absolute tw-right-0 tw-mt-2 tw-w-56 tw-rounded-md tw-shadow-lg tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5 focus:tw-outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+      <div class="tw-py-1" role="none">
+        <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+        <a href="#" class="tw-text-gray-700 tw-block tw-px-4 tw-py-2 tw-text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Account settings</a>
+        <a href="#" class="tw-text-gray-700 tw-block tw-px-4 tw-py-2 tw-text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Support</a>
+        <a href="#" class="tw-text-gray-700 tw-block tw-px-4 tw-py-2 tw-text-sm" role="menuitem" tabindex="-1" id="menu-item-2">License</a>
+        <form method="POST" action="#" role="none">
+          <button type="submit" class="tw-text-gray-700 tw-block tw-w-full tw-text-left tw-px-4 tw-py-2 tw-text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

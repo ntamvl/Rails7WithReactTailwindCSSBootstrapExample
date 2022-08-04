@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def hello_react
   end
+
+  def demo
+  end
 end
