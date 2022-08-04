@@ -243,8 +243,10 @@ import "./libs"
 
 ## Create Tailwind components
 
-NOTE: I use tailwind prefix `tw-` for this example. I have created a simple tool to generate tailwind prefix use my simple tool to generate tw prefix: http://tailwind-prefix-generator.ntam.me/
+**NOTE:**
+I use tailwind prefix `tw-` for this example. I have created a simple tool to generate tailwind prefix use my simple tool to generate tw prefix: http://tailwind-prefix-generator.ntam.me/
 
+----
 app/views/pages/_content_home_tw.html.erb
 ```html
 <!-- app/views/pages/_content_home_tw.html.erb -->
