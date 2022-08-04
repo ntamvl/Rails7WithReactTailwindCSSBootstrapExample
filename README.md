@@ -244,7 +244,7 @@ import "./libs"
 ## Create Tailwind components
 
 **NOTE:**
-I use tailwind prefix `tw-` for this example. I have created a simple tool to generate tailwind prefix by using my simple tool to generate tw prefix: http://tailwind-prefix-generator.ntam.me/
+- I use tailwind prefix `tw-` for this example. I have created a simple tool to generate tailwind prefix by using my simple tool to generate tw prefix: http://tailwind-prefix-generator.ntam.me/
 
 ----
 app/views/pages/_content_home_tw.html.erb
