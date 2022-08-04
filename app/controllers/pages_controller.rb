@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def demo
   end
+
+  def hero
+  end
 end

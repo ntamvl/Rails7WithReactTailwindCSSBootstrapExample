@@ -1,0 +1,96 @@
+<!-- use my simple tool to generate tw prefix: http://tailwind-prefix-generator.ntam.me/ -->
+<!-- https://tailwindui.com/components/marketing/sections/heroes -->
+<div class="tw-relative tw-bg-white tw-overflow-hidden">
+  <div class="tw-mx-auto">
+    <div class="tw-relative tw-z-10 tw-pb-8 tw-bg-white sm:tw-pb-16 md:tw-pb-20 lg:tw-max-w-2xl lg:tw-w-full lg:tw-pb-28 xl:tw-pb-32">
+      <svg class="tw-hidden lg:tw-block tw-absolute tw-right-0 tw-inset-y-0 tw-h-full tw-w-48 tw-text-white tw-transform tw-translate-x-1/2" fill="currentColor" viewbox="0 0 100 100" preserveaspectratio="none" aria-hidden="true">
+        <polygon points="50,0 100,0 50,100 0,100"></polygon>
+      </svg>
+      <div>
+        <div class="tw-relative tw-pt-6 tw-px-4 sm:tw-px-6 lg:tw-px-8">
+          <nav class="tw-relative tw-flex tw-items-center tw-justify-between sm:tw-h-10 lg:tw-justify-start" aria-label="Global">
+            <div class="tw-flex tw-items-center tw-flex-grow tw-flex-shrink-0 lg:tw-flex-grow-0">
+              <div class="tw-flex tw-items-center tw-justify-between tw-w-full md:tw-w-auto">
+                <a href="#">
+                  <span class="tw-sr-only">Workflow</span>
+                  <img alt="Workflow" class="tw-h-8 tw-w-auto sm:tw-h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" />
+                </a>
+                <div class="tw--mr-2 tw-flex tw-items-center md:tw-hidden">
+                  <button type="button" class="tw-bg-white tw-rounded-md tw-p-2 tw-inline-flex tw-items-center tw-justify-center tw-text-gray-400 hover:tw-text-gray-500 hover:tw-bg-gray-100 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-inset focus:tw-ring-indigo-500" aria-expanded="false">
+                    <span class="tw-sr-only">Open main menu</span>
+                    <!-- Heroicon name: outline/menu -->
+                    <svg class="tw-h-6 tw-w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="tw-hidden md:tw-block md:tw-ml-10 md:tw-pr-4 md:tw-space-x-8">
+              <a href="#" class="tw-font-medium tw-text-gray-500 hover:tw-text-gray-900">Product</a>
+              <a href="#" class="tw-font-medium tw-text-gray-500 hover:tw-text-gray-900">Features</a>
+              <a href="#" class="tw-font-medium tw-text-gray-500 hover:tw-text-gray-900">Marketplace</a>
+              <a href="#" class="tw-font-medium tw-text-gray-500 hover:tw-text-gray-900">Company</a>
+              <a href="#" class="tw-font-medium tw-text-indigo-600 hover:tw-text-indigo-500">Log in</a>
+            </div>
+          </nav>
+        </div>
+        <!--
+          Mobile menu, show/hide based on menu open state.
+
+          Entering: "duration-150 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+          Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+        <div class="tw-absolute tw-z-10 tw-top-0 tw-inset-x-0 tw-p-2 tw-transition tw-transform tw-origin-top-right md:tw-hidden">
+          <div class="tw-rounded-lg tw-shadow-md tw-bg-white tw-ring-1 tw-ring-black tw-ring-opacity-5 tw-overflow-hidden">
+            <div class="tw-px-5 tw-pt-4 tw-flex tw-items-center tw-justify-between">
+              <div>
+                <img class="tw-h-8 tw-w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
+              </div>
+              <div class="tw--mr-2">
+                <button type="button" class="tw-bg-white tw-rounded-md tw-p-2 tw-inline-flex tw-items-center tw-justify-center tw-text-gray-400 hover:tw-text-gray-500 hover:tw-bg-gray-100 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-inset focus:tw-ring-indigo-500">
+                  <span class="tw-sr-only">Close main menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg class="tw-h-6 tw-w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="tw-px-2 tw-pt-2 tw-pb-3 tw-space-y-1">
+              <a href="#" class="tw-block tw-px-3 tw-py-2 tw-rounded-md tw-text-base tw-font-medium tw-text-gray-700 hover:tw-text-gray-900 hover:tw-bg-gray-50">Product</a>
+              <a href="#" class="tw-block tw-px-3 tw-py-2 tw-rounded-md tw-text-base tw-font-medium tw-text-gray-700 hover:tw-text-gray-900 hover:tw-bg-gray-50">Features</a>
+              <a href="#" class="tw-block tw-px-3 tw-py-2 tw-rounded-md tw-text-base tw-font-medium tw-text-gray-700 hover:tw-text-gray-900 hover:tw-bg-gray-50">Marketplace</a>
+              <a href="#" class="tw-block tw-px-3 tw-py-2 tw-rounded-md tw-text-base tw-font-medium tw-text-gray-700 hover:tw-text-gray-900 hover:tw-bg-gray-50">Company</a>
+            </div>
+            <a href="#" class="tw-block tw-w-full tw-px-5 tw-py-3 tw-text-center tw-font-medium tw-text-indigo-600 tw-bg-gray-50 hover:tw-bg-gray-100"> Log in </a>
+          </div>
+        </div>
+      </div>
+      <main class="tw-mt-10 tw-mx-auto tw-max-w-7xl tw-px-4 sm:tw-mt-12 sm:tw-px-6 md:tw-mt-16 lg:tw-mt-20 lg:tw-px-8 xl:tw-mt-28">
+        <div class="sm:tw-text-center lg:tw-text-left">
+          <h1 class="tw-text-4xl tw-tracking-tight tw-font-extrabold tw-text-gray-900 sm:tw-text-5xl md:tw-text-6xl">
+            <span class="tw-block xl:tw-inline">Data to enrich your</span>
+            <span class="tw-block tw-text-indigo-600 xl:tw-inline">online business</span>
+          </h1>
+          <p class="tw-mt-3 tw-text-base tw-text-gray-500 sm:tw-mt-5 sm:tw-text-lg sm:tw-max-w-xl sm:tw-mx-auto md:tw-mt-5 md:tw-text-xl lg:tw-mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+          <div class="tw-mt-5 sm:tw-mt-8 sm:tw-flex sm:tw-justify-center lg:tw-justify-start">
+            <div class="tw-rounded-md tw-shadow">
+              <a href="#" class="tw-w-full tw-flex tw-items-center tw-justify-center tw-px-8 tw-py-3 tw-border tw-border-transparent tw-text-base tw-font-medium tw-rounded-md tw-text-white tw-bg-indigo-600 hover:tw-bg-indigo-700 md:tw-py-4 md:tw-text-lg md:tw-px-10"> Get started </a>
+            </div>
+            <div class="tw-mt-3 sm:tw-mt-0 sm:tw-ml-3">
+              <a href="#" class="tw-w-full tw-flex tw-items-center tw-justify-center tw-px-8 tw-py-3 tw-border tw-border-transparent tw-text-base tw-font-medium tw-rounded-md tw-text-indigo-700 tw-bg-indigo-100 hover:tw-bg-indigo-200 md:tw-py-4 md:tw-text-lg md:tw-px-10"> Live demo </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="lg:tw-absolute lg:tw-inset-y-0 lg:tw-right-0 lg:tw-w-1/2">
+    <img class="tw-h-56 tw-w-full tw-object-cover sm:tw-h-72 md:tw-h-96 lg:tw-w-full lg:tw-h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2850&amp;q=80" alt="" />
+  </div>
+</div>
